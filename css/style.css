@@ -1,0 +1,72 @@
+/* General Styling for Table */
+#planets {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.planet-table {
+  border: 1px solid #ddd;
+}
+
+.table-header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+.table-cell {
+  padding: 8px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+/* Alternate Row Coloring */
+#planets tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover Effect for Rows */
+#planets tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Image Styling */
+#planets img {
+  width: 50px;
+  height: auto;
+}
+
+/* Header Styling for h1 */
+.main-title {
+  text-align: center;
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* First Column Bold */
+#planets td:first-child, #planets th:first-child {
+  font-weight: bold;
+}
+
+/* Adding a Border to the Entire Table */
+#planets {
+  border: 2px solid #333;
+}
+
+/* Styling Table Cells in Even Rows */
+#planets tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+/* Styling for Last Column */
+#planets td:last-child {
+  background-color: #e6f7ff;
+  font-style: italic;
+}
